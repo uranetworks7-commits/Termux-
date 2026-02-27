@@ -1,3 +1,5 @@
+--- START OF FILE index (2).html ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +91,11 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 $(function() {
     const term = $('#t-container').terminal({
         
+        "vlfserv.accout.priv1993.ioioio.vel": function() {
+            window.open("https://9000-firebase-studio-1772168091391.cluster-xpmcxs2fjnhg6xvn446ubtgpio.cloudworkstations.dev/", "_blank");
+            this.echo("[[;green;]Opening External System...]");
+        },
+
         npm: async function(cmd, pkg) {
             if (cmd === "install") {
                 this.echo(`[[;cyan;]▲] [[b;white;]next.js@14.24.35]`);
